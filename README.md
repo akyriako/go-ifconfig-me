@@ -9,6 +9,10 @@ including your public IP address, user-agent, hostname, and more.
 
 ## How to use
 
+Import the package as: 	
+
+`import ifconfigme "github.com/akyriako/go-ifconfig-me"`
+
 ### Simple
 
 ```go
