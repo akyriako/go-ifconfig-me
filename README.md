@@ -5,7 +5,6 @@ Small Golang library to query https://ifconfig.me/ and return the response as a 
 https://ifconfig.me is an public, free endpoint that returns detailed network information, 
 including your public IP address, user-agent, hostname, and more. 
 
-![image](https://github.com/user-attachments/assets/8e9baaec-dd86-4d59-858c-2b86023b314f)
 
 ## How to use
 
