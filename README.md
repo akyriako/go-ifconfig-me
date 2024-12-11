@@ -42,6 +42,21 @@ log.Println(response)
 
 ### Response
 
+```go
+type Response struct {
+	IpAddr     string `json:"ip_addr"`
+	RemoteHost string `json:"remote_host"`
+	UserAgent  string `json:"user_agent"`
+	Port       string `json:"port"`
+	Language   string `json:"language"`
+	Method     string `json:"method"`
+	Encoding   string `json:"encoding"`
+	Mime       string `json:"mime"`
+	Via        string `json:"via"`
+	Forwarded  string `json:"forwarded"`
+}
+```
+
 The structure of the response is the following:
 
 - **ip_addr**: Your public IP address.
