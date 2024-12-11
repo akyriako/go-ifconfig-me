@@ -1,6 +1,6 @@
 # go-ifconfig-me
 
-Small Golang library to query https://ifconfig.me/all.json endpoint and return the response as a Golang struct.
+Small Golang library to query https://ifconfig.me/ and return the response as a Golang struct.
 
 https://ifconfig.me is an public, free endpoint that returns detailed network information, 
 including your public IP address, user-agent, hostname, and more. 
