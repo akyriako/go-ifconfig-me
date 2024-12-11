@@ -31,7 +31,7 @@ if err != nil {
 	log.Fatal(err)
 }
 
-	log.Println(response)
+log.Println(response)
 ```
 
 ### Response
