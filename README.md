@@ -7,8 +7,6 @@ including your public IP address, user-agent, hostname, and more.
 
 ## How to use
 
-Check the sample in cmd/main.go
-
 ### Simple
 
 ```go
@@ -23,9 +21,20 @@ log.Println(response)
 
 ### With Options Pattern
 
+```go
+client := ifconfigme.NewClient(
+	ifconfigme.WithTimeout(350*time.Millisecond),
+	ifconfigme.WithTransport(&http.Transport{}),
+)
+response, err := client.Get()
+if err != nil {
+	log.Fatal(err)
+}
 
+	log.Println(response)
+```
 
-## Response
+### Response
 
 The structure of the response is the following:
 
